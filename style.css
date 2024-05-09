@@ -1,0 +1,111 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 0;
+}
+
+body {
+    background-color: bisque;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 40%;
+    min-width: 300px;
+    margin: auto;
+}
+
+#outcont {
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 490px;
+    width: 50%;
+}
+
+#camera {
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+#maincont {
+    background-color: lightgrey;
+    height: 400px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+    text-align: center;
+}
+
+#label {
+    font-size: 16px;
+    font-weight: 400;
+}
+#user-input {
+    text-align: center;
+    height: 13%;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.btn-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 30px;
+}
+
+.buttons {
+    height: 100%;
+    width: 40%;
+    border: 3px solid grey;
+    font-size: 17px;
+}
+
+@media screen and (max-width: 800px) {
+    #container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        max-width: 60%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        max-width: 65%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        max-width: 80%;
+        margin: auto;
+    }
+}
